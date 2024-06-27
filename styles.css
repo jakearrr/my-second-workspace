@@ -260,7 +260,7 @@ nav {
     }
 }
 
-/* TECH STACK */
+/* TECH - STACK */
 
 .language__img {
     width: 100%;
@@ -408,7 +408,7 @@ footer {
     max-width: 500px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .footer__row {
