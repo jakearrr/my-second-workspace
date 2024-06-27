@@ -14,21 +14,21 @@
         <nav>
             <div class="personal__logo">Jacob Arsenault</div>
             <ul class="nav__link--list">
-                <li>
+                <li class="nav__link">
                     <a href="" class="
                         nav__link--anchor
                         link__hover-effect
                         link__hover-effect--black
                     ">Languages</a>
                 </li>
-                <li>
+                <li class="nav__link">
                     <a href="" class="
                         nav__link--anchor
                         link__hover-effect
                         link__hover-effect--black
                     ">Projects</a>
                 </li>
-                <li>
+                <li class="nav__link">
                     <a href="" class="
                         nav__link--anchor
                         nav__link--anchor-primary
@@ -50,7 +50,7 @@
                         creating powerful and responsive web applications that make life easier and improve quality of
                         life.
                     </p>
-                    <div class=".about-me_links">
+                    <div class=".about-me__links">
                         <a href="" class="about-me__link">
                             <i class="fab fa-linkedin-in"></i>
                             <a href="" class="about-me__link">
@@ -188,13 +188,17 @@
     </section>
     <footer>
         <div class="row footer__row">
-            <a href="#">
-                <figure>
+            <a href="#" class="footer__anchor">
+                <figure class="footer__logo">
                     <img src="./assets/logo.png" class="footer__logo--img" alt="Logo">
                 </figure>
+                <span class="footer__logo--popper">
+                    Top
+                    <i class="fa-solid fa-arrow-up"></i>
+                </span>
             </a>
-            <div class="footer__social-list">
-                <a href="https://google.com" class="
+            <div class="footer__social--list">
+                <a href="https://github.com/jakearrr" class="
                 footer__social--link
                 link__hover-effect
                 link__hover--effect--white
@@ -218,6 +222,7 @@
             link__hover--effect--white
             " target="_blank">Resume</a>
             </div>
+            <div class="footer__copyright">Copyright © 2024 Jacob Arsenault</div>
         </div>
     </footer>
 </body>
